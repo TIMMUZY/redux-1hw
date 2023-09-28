@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./foon.jpeg);
+    background-size: cover;  background-repeat: no-repeat;
+}
+
+header{
+    background-color: rgb(43, 52, 29);
+    color: #ffffff;
+    padding: 25px 0px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+    margin: 0 auto;
+}
+
+.nav .navbar{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+}
+
+.navbar li a{
+    color: #ffffff;
+    text-decoration: none;
+}
